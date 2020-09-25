@@ -43,6 +43,8 @@ public class hangmanApplication {
 					System.out.println(game.getCurrentGuess());
 					
 					System.out.println();
+					
+					// Game status 
 					System.out.println("Game Status : " +  " You have used " +game.currentTry +" "+ "guesses");
 
 					// Get the guess
