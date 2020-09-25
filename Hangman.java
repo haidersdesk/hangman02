@@ -24,7 +24,7 @@ public class Hangman {
 	
 	
 	public Hangman() throws IOException{
-		
+		// Constructor
 		initializeStreams(); 
 		hiddenWord = pickWord();
 		currentGuess = initializeCurrentGuess();
@@ -87,7 +87,7 @@ public class Hangman {
 	
 	
 	
-	
+	// Determine game over and print appropriate message
 	public boolean gameOver() {
 		if (winning()) {
 			System.out.println("You Won!");
